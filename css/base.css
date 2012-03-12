@@ -1,0 +1,132 @@
+﻿.color1{
+	color:#253C4E;
+}
+.color2{
+	color:#2E234B;
+}
+.color3{
+	color:#6C6E9E;
+}
+.color4{
+	color:#68AACD;
+}
+.color5{
+	color:#90C9DC;
+}
+
+
+body{
+	height: 100%;
+	font-family: 'PT Mono', sans-serif;
+}
+
+h1 {
+	border-bottom:  3px solid #68AACD;
+	color: #2E234B;
+	
+	}
+	
+div.ll-container{
+	background-color: rgba(255,255,255, .4);
+	border: 1px solid #f1f1f1;
+	-moz-box-shadow: inset 0px 0px 10px 2px rgba(0,0,0, .1);
+	-webkit-box-shadow: inset 0px 0px 10px 2px rgba(0,0,0, .1);
+	box-shadow: inset 0px 0px 10px 2px rgba(0,0,0, .1);
+	height: 350px;
+	/*overflow-x: hidden;*/
+	width: 100%;
+}	
+div.ll-chart{
+	height: 500px;
+	/*overflow-x: scroll;
+	overflow-y: hidden;*/
+	position: relative;
+	width: 100%;
+}
+div.ll-baseline {
+	background-color: #253C4E;
+	height: 1px;
+	position: absolute;
+	top: 60%;
+	width: 100%;
+}
+div.ll-mark {
+	background-color: #253C4E;
+	border-radius: 3px;
+	font-size: 11px;
+	height: 5px;
+	position: absolute;
+	top: -2px;
+	width: 5px;
+}
+
+div.ll-mark>span {
+	position: absolute;
+	top:10px;
+}
+
+div.ll-mark::after{
+	background-color:rgba(144,201,220,.2);
+	content: '';
+	height: 500px;
+	position: absolute;
+	left: 2px;
+	top: -500px;
+	width: 1px;
+	z-index: -1;
+}
+
+div.ll-mark.mark00{
+	left: 0;
+}
+
+div.ll-mark.mark01 {
+	left: 8.33%;
+}
+div.ll-mark.mark02 {
+	left: 16.66%;
+}
+div.ll-mark.mark03 {
+	left: 24.99%;
+}
+div.ll-mark.mark04 {
+	left: 33.32%;
+}
+div.ll-mark.mark05 {
+	left: 41.65%;
+}
+div.ll-mark.mark06 {
+	left: 49.98%;
+}
+div.ll-mark.mark07 {
+	left: 58.31%;
+}
+div.ll-mark.mark08 {
+	left: 66.64%;
+}
+div.ll-mark.mark09 {
+	left: 74.97%;
+}
+div.ll-mark.mark10 {
+	left: 83.3%;
+}
+div.ll-mark.mark11 {
+	left: 91.63%;
+}
+div.ll-mark.mark12 {
+	left: 99.96%;
+}
+
+
+
+#scrollbar2 { width: 100%; margin: 20px 0 10px; }
+#scrollbar2 .viewport { width: 100%; height: 350px; overflow: hidden; position: relative; }
+#scrollbar2 .overview { list-style: none; width: 100%; padding: 0; margin: 0; position: absolute; left: 0; top: 0;  }
+#scrollbar2 .overview img{ float: left; }
+#scrollbar2 .scrollbar{ position: relative;  clear: both; height:  10px; }
+#scrollbar2 .track { background-color: #90C9DC;  width: 100%; height:10px; position: relative; }
+#scrollbar2 .thumb { background-color: #2E234B;  height: 10px; cursor: pointer; overflow: hidden; position: absolute; left: 0; top: 0px; }
+#scrollbar2 .thumb .end{background-color: #6C6E9E; overflow: hidden; height: 25px; width: 5px;}
+#scrollbar2 .disable { display: none; }
+
+

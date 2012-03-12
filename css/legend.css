@@ -1,0 +1,19 @@
+﻿div.legend {
+	display: inline-block;
+	font-size: 12px;
+	margin: 1%;
+	min-width: 166px;
+	padding: 2%;
+	width: 18.66%;
+}
+div.legend a {
+	font-size: 16px;
+}
+
+
+div.ll-legend-mark  {
+	height: 10px;
+	display: inline-block;
+	width: 10px;
+}
+

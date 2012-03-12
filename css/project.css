@@ -1,0 +1,94 @@
+﻿.ll-project {
+	font-size: 11px;
+	position: absolute;
+	height: 20px;
+	height: 20px;
+	bottom: -5px;
+}
+
+
+.level-1 {
+	height: 50px;
+
+}
+.level-2 {
+	height: 100px;
+}
+.level-3 {
+	height: 150px;
+}
+.level-4 {
+	height: 200px;
+}
+.level-5{
+	height: 250px;
+}
+
+.ll-subproject {
+	bottom:0px;
+	font-size:8px;
+	position: absolute;
+}
+
+
+
+#project1 {
+	background-color: rgba(255,255,0,.1);
+	border-bottom: 5px solid rgba(255,255,0,.5);
+	border-top: 5px solid rgba(255,255,0,.5);
+	left: 5%;
+	width: 10%;
+}
+
+#project2 {
+	background-color: rgba(255,0,255,.1);
+	border-top: 5px solid rgba(255,0,255,.5);
+	border-bottom: 5px solid rgba(255,0,255,.5);
+	left: 10%;
+	width: 30%;
+}
+#project2 .ll-subproject {
+	background-color: rgba(255,0,255,.1);
+	border-top: 5px solid rgba(255,0,255,.5);	
+}
+
+
+#subproject2-1{
+	left: 30%;
+	width: 50%;
+}
+
+#project3 {
+	background-color: rgba(23,253,71,.1);
+	border-top: 5px solid rgba(23,253,71,.5);
+	border-bottom: 5px solid rgba(23,253,71,.5);
+	left: 50%;
+	width: 50%;
+}
+
+#project3 .ll-subproject {
+	background-color: rgba(23,253,71,.1);
+	border-top: 5px solid rgba(23,253,71,.5);	
+}
+
+#subproject3-1{
+	left: 7%;
+	width: 5%;
+}
+
+
+#subproject3-2{
+	left: 10%;
+	width: 40%;
+}
+
+#subproject3-3{
+	left: 70%;
+	width: 8%;
+}
+
+#subproject3-4{
+	left: 3%;
+	width: 97%;
+}
+

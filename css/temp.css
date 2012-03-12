@@ -1,0 +1,120 @@
+﻿div.ll-baseline {
+	top: 50%;
+	width: 720px;
+}
+div.ll-mark.mark01 {
+	left: 60px;
+}
+div.ll-mark.mark02 {
+	left: 120px;
+}
+div.ll-mark.mark03 {
+	left: 180px;
+}
+div.ll-mark.mark04 {
+	left: 240px;
+}
+div.ll-mark.mark05 {
+	left: 300px;
+}
+div.ll-mark.mark06 {
+	left: 360px;
+}
+div.ll-mark.mark07 {
+	left: 420px;
+}
+div.ll-mark.mark08 {
+	left: 480px;
+}
+div.ll-mark.mark09 {
+	left: 540px;
+}
+div.ll-mark.mark10 {
+	left: 600px;
+}
+div.ll-mark.mark11 {
+	left: 660px;
+}
+div.ll-mark.mark12 {
+	left: 720px;
+}
+
+
+div.ll-baseline.year2{left:720px;}
+.year2:after{
+	content: '2010';
+	position: absolute;
+	top: 20px;
+}
+
+div.ll-baseline.year3{left:1440px;}
+.year3:after{
+	content: '2011';
+	position: absolute;
+	top: 20px;
+}
+
+
+
+#project1 {
+	background-color: rgba(125, 195, 20, .1);
+	border-bottom: 5px solid rgba(125, 195, 20,.5);
+	border-top: 5px solid rgba(125, 195, 20,.5);
+	color: rgba(125, 195, 20,1);
+	left: 300px;
+	width: 1560px;
+	
+
+}
+
+#legend-1 {
+	background-color: rgba(125, 195, 20, .1);
+	border-top: 5px solid rgba(125, 195, 20,.5);
+}
+
+#project1 .ll-subproject {
+	background-color: rgba(125, 195, 20, .1);
+	border-top: 5px solid rgba(125, 195, 20,.5);
+}
+
+#subproject1-1{
+	left: 240px;
+	width: 120px;
+}
+
+#project2 {
+	background-color: rgba(117, 167, 243, .1);
+	border-bottom: 5px solid rgba(117, 167, 243,.5);
+	border-top: 5px solid rgba(117, 167, 243,.5);
+	color: rgba(117, 167, 243,1);
+	left: 720px;
+	width: 1440px;
+	
+	padding-top: 5px;
+	bottom: -10px;
+}
+#legend-2 {
+	background-color: rgba(117, 167, 243, .1);
+	border-top: 5px solid rgba(117, 167, 243,.5);
+}
+
+
+#project3 {
+	background-color: rgba(252, 0, 153, .1);
+	border-bottom: 5px solid rgba(252, 0, 153,.5);
+	border-top: 5px solid rgba(252, 0, 153,.5);
+	color: rgba(252, 0, 153,1);
+	left: 1380px;
+	width: 480px;
+	padding-top: 10px;
+	bottom: -15px;
+}
+
+
+#legend-3 {
+	background-color: rgba(252, 0, 153, .1);
+	border-top: 5px solid rgba(252, 0, 153,.5);
+}
+
+
+
