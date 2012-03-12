@@ -89,6 +89,7 @@ div.ll-timeline.year3{left:1440px;}
 	padding-top: 5px;
 	bottom: -10px;
 }
+
 #legend-2 {
 	background-color: rgba(117, 167, 243, .1);
 	border-top: 5px solid rgba(117, 167, 243,.5);
@@ -112,5 +113,10 @@ div.ll-timeline.year3{left:1440px;}
 	border-top: 5px solid rgba(252, 0, 153,.5);
 }
 
-
+.ll-milestone {
+	left: 20%;
+}
+#milestone-2 {
+	left: 28%;
+}
 

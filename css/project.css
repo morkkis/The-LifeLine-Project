@@ -30,64 +30,40 @@
 }
 
 
-
-#project1 {
-	background-color: rgba(255,255,0,.1);
-	border-bottom: 5px solid rgba(255,255,0,.5);
-	border-top: 5px solid rgba(255,255,0,.5);
-	left: 5%;
-	width: 10%;
+div.ll-milestone {
+	bottom: -9px;
+	cursor: pointer;
+	height: 10px;
+	position: absolute;
+	width: 10px;
+	border-width: 2px;
+	border-style: solid;
+	margin-left: -5px;
+	z-index: 1;
+}
+div.ll-milestone:hover {
+	background-color: rgba(255, 255, 255, .9);
+}
+div.ll-milestone::after{
+	content: '';
+	position: absolute;
+	border-width: 2px;
+	border-style: solid;
+	left: 3px;
+	top: 3px;
 }
 
-#project2 {
-	background-color: rgba(255,0,255,.1);
-	border-top: 5px solid rgba(255,0,255,.5);
-	border-bottom: 5px solid rgba(255,0,255,.5);
-	left: 10%;
-	width: 30%;
+div.ll-milestone-pop{
+	background-color: rgba(255, 255, 255, 1);
+	position: absolute;
+	bottom: 15px;
+	left: -2px;
+	border: 2px solid;
+	width: 200px;
+	z-index: 10;
+	padding: 10px 20px;
+	display: none;
 }
-#project2 .ll-subproject {
-	background-color: rgba(255,0,255,.1);
-	border-top: 5px solid rgba(255,0,255,.5);	
+div.ll-milestone:hover >div.ll-milestone-pop{
+	display: block;
 }
-
-
-#subproject2-1{
-	left: 30%;
-	width: 50%;
-}
-
-#project3 {
-	background-color: rgba(23,253,71,.1);
-	border-top: 5px solid rgba(23,253,71,.5);
-	border-bottom: 5px solid rgba(23,253,71,.5);
-	left: 50%;
-	width: 50%;
-}
-
-#project3 .ll-subproject {
-	background-color: rgba(23,253,71,.1);
-	border-top: 5px solid rgba(23,253,71,.5);	
-}
-
-#subproject3-1{
-	left: 7%;
-	width: 5%;
-}
-
-
-#subproject3-2{
-	left: 10%;
-	width: 40%;
-}
-
-#subproject3-3{
-	left: 70%;
-	width: 8%;
-}
-
-#subproject3-4{
-	left: 3%;
-	width: 97%;
-}
-
