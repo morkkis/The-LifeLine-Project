@@ -1,8 +1,4 @@
-﻿div.ll-baseline {
-	top: 50%;
-	width: 720px;
-}
-div.ll-mark.mark01 {
+﻿div.ll-mark.mark01 {
 	left: 60px;
 }
 div.ll-mark.mark02 {
@@ -40,14 +36,14 @@ div.ll-mark.mark12 {
 }
 
 
-div.ll-baseline.year2{left:720px;}
+div.ll-timeline.year2{left:720px;}
 .year2:after{
 	content: '2010';
 	position: absolute;
 	top: 20px;
 }
 
-div.ll-baseline.year3{left:1440px;}
+div.ll-timeline.year3{left:1440px;}
 .year3:after{
 	content: '2011';
 	position: absolute;

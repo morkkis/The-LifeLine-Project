@@ -44,12 +44,20 @@ div.ll-chart{
 	width: 100%;
 }
 div.ll-baseline {
-	background-color: #253C4E;
 	height: 1px;
 	position: absolute;
 	top: 60%;
 	width: 100%;
 }
+
+div.ll-timeline {
+	height: 1px;
+	position: absolute;
+	width: 720px;
+	background-color: #253C4E;
+	position: relative;
+}
+
 div.ll-mark {
 	background-color: #253C4E;
 	border-radius: 3px;
