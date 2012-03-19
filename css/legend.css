@@ -17,3 +17,7 @@ div.ll-legend-mark  {
 	width: 10px;
 }
 
+.control{
+	float:left;
+	padding:10px;
+}
